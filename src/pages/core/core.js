@@ -1,5 +1,5 @@
 // 获取全局应用程序实例对象
-const app = getApp()
+// const app = getApp()
 
 // 创建页面实例对象
 Page({
@@ -7,43 +7,48 @@ Page({
    * 页面的初始数据
    */
   data: {
-    title: 'Demo page'
+    title: 'core'
   },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad () {
-    console.log(' ---------- onLoad ----------')
-    console.dir(app.data)
+    // TODO: onLoad
   },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady () {
-    console.log(' ---------- onReady ----------')
+    // TODO: onReady
   },
+
   /**
    * 生命周期函数--监听页面显示
    */
   onShow () {
-    console.log(' ---------- onShow ----------')
+    // TODO: onShow
   },
+
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide () {
-    console.log(' ---------- onHide ----------')
+    // TODO: onHide
   },
+
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload () {
-    console.log(' ---------- onUnload ----------')
+    // TODO: onUnload
   },
+
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh () {
-    console.log(' ---------- onPullDownRefresh ----------')
+    // TODO: onPullDownRefresh
   }
 })

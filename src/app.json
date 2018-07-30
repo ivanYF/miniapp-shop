@@ -1,7 +1,8 @@
 {
     "pages": [
         "pages/index/index",
-        "pages/demo/demo"
+        "pages/core/core",
+        "pages/my/my"
     ],
     "window": {
         // 类型：HexColor；默认值：#000000
@@ -25,21 +26,27 @@
     },
     "tabBar": {
         "color": "#999999",
-        "selectedColor": "#35495e",
+        "selectedColor": "#333333",
         "borderStyle": "white",
         "backgroundColor": "#f5f5f5",
         "list": [
         {
-            "text": "HOME",
+            "text": "首页",
             "pagePath": "pages/index/index",
-            "iconPath": "images/icon_component.png",
-            "selectedIconPath": "images/icon_component_HL.png"
+            "iconPath": "images/icon_home.png",
+            "selectedIconPath": "images/icon_home_fill.png"
         },
         {
-            "text": "DEMO",
-            "pagePath": "pages/demo/demo",
-            "iconPath": "images/icon_API.png",
-            "selectedIconPath": "images/icon_API_HL.png"
+            "text": "商城",
+            "pagePath": "pages/core/core",
+            "iconPath": "images/icon_shop.png",
+            "selectedIconPath": "images/icon_shop_fill.png"
+        },
+        {
+            "text": "我的",
+            "pagePath": "pages/my/my",
+            "iconPath": "images/icon_my.png",
+            "selectedIconPath": "images/icon_my_fill.png"
         }
         ]
     },
