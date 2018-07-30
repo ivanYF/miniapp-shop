@@ -1,34 +1,17 @@
 # 微信小程序 模块集合
 
-> 一个为微信小程序开发准备的基础模块
+> 微信小程序 商城
 
 
 ## 介绍
 
-- 添加常用导航，可自动定位聚焦，可直接投入使用，而且支持不同长度的导航子模块，可以拉取代码查看。 end
-
-- 增加竖直导航页面，可以点击首页卡片模块入口查看。end
-
-- 录音功能，录音 计时 播放 暂停 end
-
-- 瀑布流 操作，未知图片比例的前提下，loading图片，分析宽高 放入正确的view轨道 end
-
-- 地址选择 三级地址联动 同理可用服用与其他 选择类型 end
-
-- map使用，获取当前定位详细地址 address detail end
-
-- 上拉分屏加载客服模块 end
-
-- 导航定点fix && 自动定位前进  end
-
-- 列表数据 左滑删除  end
-
-- mp3 的 播放组建  wait
-
-- 数据模版的推送通知  wait
-
- 
 - 商城项目开始
+
+- 首页商品瀑布流
+
+- 商城分类页面
+
+- 我的 （收藏列表 订单 收货地址  意见反馈）
 
 ## 将项目克隆到本地
 
@@ -37,7 +20,7 @@
 $ cd path/to/root
 
 # 克隆仓库到指定的文件夹
-$ git clone https://github.com/ivanYF/minapp.git [project-name] --depth 1
+$ git clone https://github.com/ivanYF/minapp-shop.git [project-name] --depth 1
 
 # 进入指定的文件夹
 $ cd [project-name]
