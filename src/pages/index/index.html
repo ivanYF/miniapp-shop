@@ -13,5 +13,34 @@
 		</scroll-view>
 	</view>
 	
-	<view class="prod-list"></view>
+	<!-- 预加载 图片 -->
+	<view class="waterfall-load">
+		<image class="waterfall-load-content" wx:for="{{loadImgSrcList}}" wx:key="index" src="{{item}}" bindload="imgOnLoad" data-link="{{item}}"></image>
+	</view>
+	
+	<!-- 瀑布流 -->
+	<view class="waterfall-wrap">
+		<view class="waterfall-item">
+			<view class="item" wx:for="{{flData.imgList}}" wx:for-item="lItem" wx:key="index">
+				<image class="img" src="{{lItem}}" mode="widthFix"></image>
+				<view class="w-desc">如果有来生，就做一棵树，站成永恒</view>
+				<view class="u-info">
+					<image class="tag-avg" src="../../images/my-cover.png" mode="widthFix"></image>
+					<view class="name">Ivan</view>
+					<view class="tag-heart">362</view>
+				</view>
+			</view>
+		</view>
+		<view class="waterfall-item">
+			<view class="item" wx:for="{{frData.imgList}}" wx:for-item="rItem" wx:key="index">
+				<image class="img" src="{{rItem}}" mode="widthFix"></image>
+				<view class="w-desc">如果有来生，就做一棵树，站成永恒</view>
+				<view class="u-info">
+					<image class="tag-avg" src="../../images/my-cover.png" mode="widthFix"></image>
+					<view class="name">Ivan</view>
+					<view class="tag-heart">434</view>
+				</view>
+			</view>
+		</view>
+	</view>
 </view>
