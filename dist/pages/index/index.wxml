@@ -27,7 +27,10 @@
 				<view class="u-info">
 					<image class="tag-avg" src="../../images/my-cover.png" mode="widthFix"></image>
 					<view class="name">Ivan</view>
-					<view class="tag-heart">362</view>
+					<view class="tag-heart">
+						<image class="icon" src="../../images/icon-favor.png"></image>
+						<text class="num">362</text>
+					</view>
 				</view>
 			</view>
 		</view>
@@ -38,7 +41,10 @@
 				<view class="u-info">
 					<image class="tag-avg" src="../../images/my-cover.png" mode="widthFix"></image>
 					<view class="name">Ivan</view>
-					<view class="tag-heart">434</view>
+					<view class="tag-heart">
+						<image class="icon" src="../../images/icon-favor.png"></image>
+						<text class="num">434</text>
+					</view>
 				</view>
 			</view>
 		</view>

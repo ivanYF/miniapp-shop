@@ -146,15 +146,27 @@
 			}
 			.name{
 				flex: 1;
-				padding-left: 15rpx;
-				font-size: 24rpx;
+				padding: 0 20rpx;
+				font-size: 28rpx;
 				color: #666;
 			}
 			.tag-heart{
-				display: inline-block;
-				padding-left: 20rpx;
-				font-size: 24rpx;
+				width: 110rpx;
+				display: flex;
 				color: #666;
+				align-items: center;
+				.icon{
+					width: 35rpx;
+					height: 35rpx;
+					display: inline-block;
+				}
+				.num{
+					padding-left: 10rpx;
+					display: inline-block;
+					flex: 1;
+					text-align: left;
+					font-size: 26rpx;
+				}
 			}
 		}
 	}
