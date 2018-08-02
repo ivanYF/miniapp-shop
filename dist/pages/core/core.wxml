@@ -1,4 +1,40 @@
-<!-- 可用组件：https://mp.weixin.qq.com/debug/wxadoc/dev/component/ -->
+<import src="../commonTMP/siderNav.wxml"/>
+
 <view class="container">
-  <text class="title">{{ title }}</text>
+    <view class="fix-s-n">
+		<view class="search-wrap">
+			<view class="search-content">
+				<image class="tag-search" src="../../images/tag_search.png"></image>
+				<text class="search-text">大家都在搜"美丽传说"</text>
+			</view>
+		</view>
+    </view>
+    
+    <view class="content-wrap">
+        <template is="sidernav" data="{{category,scrollT,curIndex}}" />
+        <scroll-view scroll-y class="content">
+            <image class="banner" src="../../images/core-banner.png" mode="widthFix"></image>
+            <view class="list-wrap" wx:for="[1,2,3,4]" wx:key="index">
+                <view class="title"><view class="t-name">化妆品</view></view>
+                <view class="l-item">
+                    <view class="item">
+                        <image class="pic" src="../../images/core-banner.png" mode="widthFix"></image>
+                        <text class="i-name">运动鞋</text>
+                    </view>
+                    <view class="item">
+                        <image class="pic" src="../../images/core-banner.png" mode="widthFix"></image>
+                        <text class="i-name">运动鞋</text>
+                    </view>
+                    <view class="item">
+                        <image class="pic" src="../../images/core-banner.png" mode="widthFix"></image>
+                        <text class="i-name">运动鞋</text>
+                    </view>
+                    <view class="item">
+                        <image class="pic" src="../../images/core-banner.png" mode="widthFix"></image>
+                        <text class="i-name">运动鞋</text>
+                    </view>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
 </view>
