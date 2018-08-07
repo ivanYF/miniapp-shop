@@ -2,7 +2,8 @@
     "pages": [
         "pages/index/index",
         "pages/core/core",
-        "pages/my/my"
+        "pages/my/my",
+        "pages/detail/detail"
     ],
     "window": {
         // 类型：HexColor；默认值：#000000
