@@ -1,12 +1,19 @@
 <view class="container">
-    <view class="swiper"></view>
+    <view class="swiper">
+        <swiper indicator-dots="true" autoplay="true" interval="5000" duration="500">
+            <block wx:for="{{imgUrls}}">
+                <swiper-item>
+                    <image src="{{item}}" class="slide-image" width="355" height="150"/>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
     <!-- 基本信息 -->
     <view class="prod-info"></view>
     <!-- 选择规格 -->
     <view class="prod-sku"></view>
     <!-- 图文详情 -->
     <view class="pic-text"></view>
-
     <!-- 操作栏 -->
     <view class="btn-list"></view>
 </view>
