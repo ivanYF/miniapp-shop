@@ -1,3 +1,18 @@
-.title {
-  font-size: 40rpx;
+.container{
+    font-size: 0;
+    width: 100%;
+    overflow: hidden;
+    .swiper{
+        width: 100%;
+        display: inline-block;
+        overflow: hidden;
+        swiper{
+            height: 500rpx;
+        }
+        .slide-image{
+            display: inline-block;
+            width: 100%;
+        }
+    }
+    
 }

@@ -7,7 +7,13 @@ Page({
      * 页面的初始数据
      */
     data: {
-        title: '商品详情'
+        title: '商品详情',
+        imgUrls:[
+            '../../images/pbl/timg1.jpeg',
+            '../../images/pbl/timg2.jpeg',
+            '../../images/pbl/timg3.jpeg',
+            '../../images/pbl/timg4.jpeg',
+        ]
     },
 
     /**
