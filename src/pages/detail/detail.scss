@@ -14,5 +14,49 @@
             width: 100%;
         }
     }
-    
+    .prod-info{
+        width: 100%;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 0 20rpx;
+        margin-bottom: 20rpx;
+        background: #fff;
+        .price-info{
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            padding: 20rpx 0;
+            .now-price{
+                display: inline-block;
+                font-size: 40rpx;
+                color: #FD2740;
+            }
+            .d-price{
+                margin-left: 10rpx;
+                display: inline-block;
+                font-size: 26rpx;
+                color: #666;
+                text-decoration: line-through;
+            }
+            .tag{
+                margin-left: 20rpx;
+                font-size: 22rpx;
+                color: #FD2740;
+                border: 1rpx solid #FD2740;
+                border-radius: 6rpx;
+                display: inline-block;
+                line-height: 30rpx;
+                padding: 0 5rpx;
+            }
+        }
+        .prod-name{
+            font-size: 30rpx;
+            color: #000;
+            line-height: 36rpx;
+            display: inline-block;
+            padding-right: 100rpx;
+            margin-bottom: 20rpx;
+        }
+    }
 }
